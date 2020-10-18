@@ -5,7 +5,7 @@ Note2: Please use install.sh under Linux only. You have to manually compile it o
 # License
 The program is licensed under the JB-OSS license
 # Installation
-Linux:
+# Linux:
 
 Clone the repository and navigate to the sorce folder.
 Run the following commands:
@@ -17,7 +17,7 @@ $ ./install.sh
 Type in 'notes' (without quotes) to run the program
 
 
-Other UNIX operating systems:
+# Other UNIX operating systems:
 
 Prerequsites:
 
@@ -38,7 +38,8 @@ Create a file called NOTEFILE (without any file extensions) in your home directo
 Type in './notes' (without quotes) to run the program.
 
 
-Windows:
+# Windows:
+
 Clone the repository and navigate to the WIndows folder inside the sorce folder.
 enable file name extensions in Explorer and create a new text file. Name it NOTEFILE.txt and remove the '.txt'. You should now have a file called NOTEFILE without a file extension. This file should always be in the same folder as the executable.
 Lastly, run the executable.
