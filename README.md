@@ -15,7 +15,9 @@ Type in 'notes' (without quotes) to run the program
 
 
 Other UNIX operating systems:
+
 Prerequsites:
+
 -GCC compiler
 
 Clone the repository and navigate to the sorce folder.
