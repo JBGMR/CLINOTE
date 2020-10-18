@@ -45,9 +45,15 @@ enable file name extensions in Explorer and create a new text file. Name it NOTE
 Lastly, run the executable.
 
 # Deleting notes
-Currently the only way to delete notes is to delete the NOTEFILE and create a new one. This will wipe all your notes.
+Recommended way (Linux): run the notes-reset.sh file in your home direcotry by running:
 
-Note: there is a way to only delete one or two notes. This way is not recommended as it may break the program. If you accept the risk, then the solution is pretty obvious. Open the NOTEFILE with a text editor and delete the note.
+$ sh notes-reset.sh
+
+This will reset all notes.
+
+Recommended way (Windows/UNIX): Delete the NOTEFILE and create a new one as shown above. This will also wipe every single note.
+
+Second way: there is a way to only delete one or two notes. This way is not recommended as it may break the program. If you accept the risk, then the solution is pretty obvious. Open the NOTEFILE with a text editor and delete the note.
 
 # Troubleshooting
 Q: The program gives me an error when I run it.
