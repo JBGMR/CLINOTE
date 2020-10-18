@@ -9,8 +9,11 @@ Linux:
 
 Clone the repository and navigate to the sorce folder.
 Run the following commands:
+
 $ sudo chmod 777 install.sh
+
 $ ./install.sh
+
 Type in 'notes' (without quotes) to run the program
 
 
@@ -22,10 +25,15 @@ Prerequsites:
 
 Clone the repository and navigate to the sorce folder.
 Run the following commands:
+
 $ gcc main.c -o notes
+
 $ sudo chmod 777 notes
+
 $ cp notes ~/notes
+
 $ cd ~
+
 Create a file called NOTEFILE (without any file extensions) in your home directory. This file should always be in the same folder as the notes file.
 Type in './notes' (without quotes) to run the program.
 
@@ -42,4 +50,5 @@ Note: there is a way to only delete one or two notes. This way is not recommende
 
 # Troubleshooting
 Q: The program gives me an error when I run it.
+
 A: Make sure the NOTEFILE is present and the you are running it from the home directory on Linux.
