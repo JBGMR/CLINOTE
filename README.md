@@ -40,8 +40,10 @@ Type in './notes' (without quotes) to run the program.
 
 # Windows:
 
-Clone the repository and navigate to the WIndows folder inside the sorce folder.
-enable file name extensions in Explorer and create a new text file. Name it NOTEFILE.txt and remove the '.txt'. You should now have a file called NOTEFILE without a file extension. This file should always be in the same folder as the executable.
+Clone the repository and navigate to the Windows folder inside the sorce folder.
+You should have a file called NOTEFILE without a file extension. If there isn't one you need to create one.
+This file should always be in the same folder as the executable and it
+should never be deleted.
 Lastly, run the executable.
 
 # Deleting notes
