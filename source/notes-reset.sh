@@ -1,4 +1,0 @@
-echo 'MAKE SURE YOU RUN THIS IN YOUR HOME DIRECTORY OR THE FOLDER WHICH CONTAINS THE EXECUTABLE'
-rm -rf NOTEFILE
-touch NOTEFILE
-echo 'Your notes have been deleted successfully!'
