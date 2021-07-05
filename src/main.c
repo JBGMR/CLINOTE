@@ -4,7 +4,7 @@ int main() {
 char notes[200], r;
 int loop=1;
 while (loop == 1) {
-system("clear");
+clrscr();
 printf("CLINOTE - MY NOTES\n##########################################\n\n");
 
 
@@ -13,9 +13,9 @@ printf("CLINOTE - MY NOTES\n##########################################\n\n");
 	note = fopen(".NOTEFILE", "r");
 	if (note == NULL) {
 	printf("\nERROR!\n");
-	system("touch .NOTEFILE");
-	printf("No .NOTEFILE found. Creating...\nDone. Please run the program Again.");
-	return 1;
+	fclose(fopen(".NOTEFILE", "w"));
+	printf("No .NOTEFILE found. Creating...\nDone.");
+	note = fopen(".NOTEFILE", "r");
 	}
 	
 	r = fgetc(note);
